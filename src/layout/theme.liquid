@@ -12,7 +12,7 @@
   {%- endif -%}
 
   {%- capture seo_title -%}
-    {{ page_title }}
+    WELCOME TO {{ page_title }}
     {%- if current_tags -%}
       {%- assign meta_tags = current_tags | join: ', ' -%} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
     {%- endif -%}
