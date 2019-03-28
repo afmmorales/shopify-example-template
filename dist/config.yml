@@ -14,15 +14,15 @@
 ---
 
 development:
-  password:406f9cd4f699e6cd9f215264cc63c99b
-  theme_id:19225018421
-  store: amiel-shop-example.myshopify.com
+  password:
+  theme_id:
+  store: your-shop.myshopify.com
   ignore_files:
-    - settings_data.json # Uncomment this line to avoid resetting theme settings
+    #- settings_data.json # Uncomment this line to avoid resetting theme settings
 
 production:
-  password:406f9cd4f699e6cd9f215264cc63c99b
+  password:
   theme_id: "live"
-  store: amiel-shop-example.myshopify.com
+  store: your-shop.myshopify.com
   ignore_files:
-    - settings_data.json # Uncomment this line to avoid resetting theme settings
+    #- settings_data.json # Uncomment this line to avoid resetting theme settings
